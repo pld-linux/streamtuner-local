@@ -10,6 +10,8 @@ Source0:	http://savannah.nongnu.org/download/streamtuner/%{name}-%{version}.tar.
 Patch0:		%{name}-gcc34.patch
 URL:		http://www.nongnu.org/streamtuner/
 Buildrequires:	gtk+2-devel >= 2:2.4.4
+BuildRequires:	libid3tag-devel >= 0.15.0
+BuildRequires:	libvorbis-devel >= 1.0
 Buildrequires:	streamtuner-devel >= 0.12.0
 Requires:	streamtuner >= 0.12.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
