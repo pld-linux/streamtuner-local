@@ -1,0 +1,12 @@
+diff -urN aa/streamtuner-local-0.4.0/src/local.c streamtuner-local-0.4.0/src/local.c
+--- aa/streamtuner-local-0.4.0/src/local.c	2004-03-29 13:50:00.000000000 +0200
++++ streamtuner-local-0.4.0/src/local.c	2004-07-29 01:22:56.285758944 +0200
+@@ -613,7 +613,7 @@
+ #ifdef WITH_VC
+ 	case LOCAL_TYPE_OGG:	local_vc_read(stream); 		break;
+ #endif
+-	default:		/* nop */
++	default:;		/* nop */
+ 	}
+       
+       *streams = g_list_append(*streams, stream);
