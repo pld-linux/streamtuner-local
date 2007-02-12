@@ -1,5 +1,5 @@
 Summary:	Plugin for streamtuner providing access to local music collection
-Summary(pl):	Wtyczka dla streamtunera daj±ca dostêp do lokalnej kolekcji muzyki
+Summary(pl.UTF-8):   Wtyczka dla streamtunera dajÄ…ca dostÄ™p do lokalnej kolekcji muzyki
 Name:		streamtuner-local
 Version:	0.4.0
 Release:	1
@@ -20,9 +20,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Plugin providing access to your local music collection. It can read
 and modify ID3 and Vorbis metadata.
 
-%description -l pl
-Wtyczka dla streamtunera daj±ca dostêp do lokalnej kolekcji muzyki.
-Dziêki tej wtyczce mo¿na odczytywaæ i modyfikowaæ metadane ID3 i
+%description -l pl.UTF-8
+Wtyczka dla streamtunera dajÄ…ca dostÄ™p do lokalnej kolekcji muzyki.
+DziÄ™ki tej wtyczce moÅ¼na odczytywaÄ‡ i modyfikowaÄ‡ metadane ID3 i
 Vorbis.
 
 %prep
