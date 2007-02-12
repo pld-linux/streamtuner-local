@@ -1,5 +1,5 @@
 Summary:	Plugin for streamtuner providing access to local music collection
-Summary(pl.UTF-8):   Wtyczka dla streamtunera dająca dostęp do lokalnej kolekcji muzyki
+Summary(pl.UTF-8):	Wtyczka dla streamtunera dająca dostęp do lokalnej kolekcji muzyki
 Name:		streamtuner-local
 Version:	0.4.0
 Release:	1
